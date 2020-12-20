@@ -3,7 +3,7 @@ def reverse_each_word(string)
   string = string.map { |e|
   e.reverse }
   string = string.join(" ")
-  puts string
+  string
 end
 
 reverse_each_word("Hello there, and how are you?")
